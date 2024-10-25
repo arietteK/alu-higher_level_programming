@@ -5,7 +5,7 @@ def roman_to_int(roman_string):
     if type(roman_string) is not str or roman_string is None:
         return (0)
     for i, char in  enumerate(roman_string):
-        temp = roman(char)
+        temp = roman[char]
         try:
             if temp < roman[roman_string[i + 1]]:
                 temp = temp * -1
