@@ -1,6 +1,14 @@
 #!/usr/bin/python3
-"""Defining a class called Square"""
+"""
+This module defines an empty class called `Square` that can be used as a blueprint
+for creating square objects.
+"""
 
 class Square:
+    """
+    This class represents an empty square.
+    
+    This class currently does not have any attributes or methods, and acts
+    as the start of defining a square in future tasks.
+    """
     pass
-python3 -c 'print(__import__("my_module").MyClass.__doc__)'
