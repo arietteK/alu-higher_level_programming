@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""The rectangle class module"""
+"""The rectangle class module with attributes for width and height,including
+property methods for getting and setting these attributes with validation."""
 
 
 class Rectangle:
