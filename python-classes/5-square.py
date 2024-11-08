@@ -28,6 +28,7 @@ class Square:
     def area(self):
         """A public method that returns the current square area"""
         return(self.__size * self.__size)
+
     def my_print(self):
         """print repetition of square with # character"""
         if self.__size == 0:
