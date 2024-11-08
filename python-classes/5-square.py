@@ -4,6 +4,7 @@ This module defines a class `Square` that represents a square
 with a private instance attribute for its size.
 """
 
+
 class Square:
     """ This class represents a square with a private attribute `size`."""
 
@@ -35,6 +36,6 @@ class Square:
         """print repetition of square with # character"""
         if self.__size == 0:
             print()
-        for item i in range(self.__size):
-            [print("#", end='') for j in range(self.__size)]
+        for item in range(self.__size):
+            [print("#", end="") for j in range(self.__size)]
             print()
