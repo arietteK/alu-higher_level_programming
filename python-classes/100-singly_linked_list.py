@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 """A linked list oop module"""
 
+
 class Node:
-    """A class node that defines a node of a singly linked list"""
+    """A class node that defines a node of a singly linked list
+    data represents the information and
+    next_node represents the next container in the list that houses the data """
+
     def __init__(self, data, next_node=None):
         """The instantiation of method"""
         self.data = data
@@ -36,6 +40,7 @@ class Node:
 class SinglyLinkedList:
     """Defines a singly linked list."""
     def __init__(self):
+        """The initialization"""
         self.__head = None
 
     def sorted_insert(self, value):
