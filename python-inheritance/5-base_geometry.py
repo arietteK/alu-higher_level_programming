@@ -9,4 +9,3 @@ class BaseGeometry:
     An empty class representing the concept of geometry.
     """
     pass
-
