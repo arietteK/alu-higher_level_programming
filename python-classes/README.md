@@ -1,5 +1,5 @@
 Python - Classes and Objects        
-This repository contains various Python classes that define and manipulate a Square object. Each task demonstrates the creation, validation, and manipulation of square objects in Python, including handling private attributes, validation, and area calculation.           
+This project contains various Python classes that define and manipulate a Square object. Each task shows the creation, validation, and manipulation of square objects in Python, including handling private attributes, validation, and area calculation.           
 
 Project Tasks                
 0. My First Square        
