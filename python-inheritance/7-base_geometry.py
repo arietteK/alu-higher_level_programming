@@ -12,7 +12,7 @@ class BaseGeometry:
         """
         Public instance method that raises an exception indicating
         that the method is not yet implemented."""
-        raise Exception("area() is not implemented")
+        raise NotImplementedError("area() is not implemented")
     
     def integer_validator(self, name, value):
         """
