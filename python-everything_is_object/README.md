@@ -114,3 +114,7 @@ File: 27-answer.txt
 Same or Not?
 Investigate whether modifying a list in place changes its memory address.        
 File: 28-answer.txt       
+
+Python3:Mutable, Immutable... everything is object!          
+Description: Write a blog post about everything you just learned in this project, including examples and a picture. Publish it on Medium or LinkedIn and share the URL.      
+URL: https://www.linkedin.com/pulse/understanding-pythons-object-model-mutable-immutable-objects-kagina-lk8cf        
