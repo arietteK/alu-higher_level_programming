@@ -5,6 +5,7 @@ The class provides methods for initializing, calculating the area, and
 string representation of a rectangle.
 """
 
+
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
@@ -42,4 +43,3 @@ class Rectangle(BaseGeometry):
             str: The formatted string representation of the rectangle.
         """
         return ("[Rectangle] " + str(self.__width) + "/" + str(self.__height)
-
