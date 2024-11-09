@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module defines a class Rectangle that inherits from BaseGeometry.
-The class provides methods for initializing, calculating the area, and 
+The class provides methods for initializing, calculating the area, and
 string representation of a rectangle.
 """
 
