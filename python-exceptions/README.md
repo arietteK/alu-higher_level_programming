@@ -56,7 +56,7 @@ Key Feature: Recreates the functionality of the given bytecode in Python.
        
 How to Run the Project         
 Clone the repository:        
-git clone https://github.com/your-username/alu-higher_level_programming.git     
+git clone https://github.com/arietteK/alu-higher_level_programming.git          
 
 Navigate to the project directory:      
 cd alu-higher_level_programming/python-exceptions       
