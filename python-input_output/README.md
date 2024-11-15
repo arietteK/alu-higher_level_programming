@@ -50,5 +50,26 @@ Highlights:Handles basic data structures.
 
 Task 9: Student to JSON         
 Functionality: Defines a Student class with methods for JSON serialization.        
-Public Attributes:first_name, last_name, age         
-Method: to_json()          
+Public Attributes:first_name, last_name, age           
+Method: to_json()               
+
+Task 10: Student to JSON with Filter       
+Description: This script defines a Student class that retrieves a dictionary representation of itself. The to_json method selectively retrieves attributes if a list of attribute names is provided.           
+Attributes: first_name, last_name, age             
+Method: to_json(self, attrs=None)               
+
+Task 11: Student to Disk and Reload             
+Description: Extends the Student class from the previous task. It adds the reload_from_json method, which updates the instance's attributes from a given dictionary.        
+Method: reload_from_json(self, json)         
+
+Task 12: Pascal's Triangle               
+Description: Implements a function pascal_triangle(n) that returns a list of lists representing the Pascal's triangle up to the nth row.           
+Return: An empty list if n <= 0.              
+
+Task 13: Search and Update                 
+Description: Defines a function append_after that inserts a line of text to a file after each line containing a specific string.               
+Prototype: def append_after(filename="", search_string="", new_string="")             
+
+Task 14: Log Parsing            
+Description: A script that reads stdin line by line and computes metrics related to file size and the count of status codes.            
+Input Format: <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>          
