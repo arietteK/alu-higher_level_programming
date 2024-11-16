@@ -71,4 +71,4 @@ File: 15-groups.sql
 
 Task 16: List Non-Empty Names              
 Description: Script to list all records from second_table that have a non-empty name, ordered by score in descending order.           
-File: 16-no_link.sql             
+File: 16-no_link.sql 
