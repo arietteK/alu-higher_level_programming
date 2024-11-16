@@ -1,3 +1,4 @@
---script that lists all cities contained in the database hbtn_0d_usa
-SELECT cities.id, cities.name, states.name
-FROM cities JOIN states ON cities.state
+-- A script that lists all cities contained in the database hbtn_0d_usa.
+SELECT C.id, C.name, S.name 
+FROM cities AS C JOIN states AS S ON S.id = C.state_id
+ORDER BY C.id;
