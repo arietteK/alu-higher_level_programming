@@ -3,6 +3,7 @@
 with the  use of  urllib."""
 from urllib import request
 
+
 if __name__ == "__main__":
     with request.urlopen(
             "https://alu-intranet.hbtn.io/status"
