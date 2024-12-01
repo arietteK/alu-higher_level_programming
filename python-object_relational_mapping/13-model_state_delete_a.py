@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""List all states from the database and delete those containing 'a' in their name"""
+"""List all states from the database and delete those containing 'a'
+in their name"""
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import (create_engine)
@@ -17,7 +18,6 @@ if __name__ == "__main__":
     print(f"Found {len(states)} states to delete:")
     for state in states:
         print(f"State to delete: {state.id} - {state.name}")
-    
     for state in states:
         session.delete(state)
     session.commit()
