@@ -9,7 +9,7 @@ if __name__ == "__main__":
                            passwd=argv[2], db=argv[3], charset="utf8")
     cu = conn.cursor()
     cu.execute("SELECT * FROM states WHERE name = %s ORDER BY states.id ASC",
-            (argv[4], ))
+    (argv[4], ))
     query_rows = cu.fetchall()
     for row in query_rows:
         print(row)
