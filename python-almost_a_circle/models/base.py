@@ -78,26 +78,26 @@ class Base:
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
-    """Write the CSV serialization of a list of objects to a file."""
-    filename = cls.__name__ + ".csv"
-    try:
-        with open(filename, "w", newline="") as csvfile:
-            if list_objs is None or list_objs == []:
-                csvfile.write("[]")
-            else:
-                if cls.__name__ == "Rectangle":
-                    fieldnames = ["id", "width", "height", "x", "y"]
+        """Write the CSV serialization of a list of objects to a file."""
+        filename = cls.__name__ + ".csv"
+        try:
+            with open(filename, "w", newline="") as csvfile:
+                if list_objs is None or list_objs == []:
+                    csvfile.write("[]")
                 else:
-                    fieldnames = ["id", "size", "x", "y"]
+                    if cls.__name__ == "Rectangle":
+                        fieldnames = ["id", "width", "height", "x", "y"]
+                    else:
+                        fieldnames = ["id", "size", "x", "y"]
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                writer.writeheader()
+                writer.writeheader()  # Optional: Adds headers to the CSV file
                 for obj in list_objs:
                     writer.writerow(obj.to_dictionary())
-    except IOError as e:
-        print(f"An error occurred while saving to {filename}: {e}")
+        except IOError as e:
+            print(f"An error occurred while saving to {filename}: {e}")
 
-    @classmethod
-    def load_from_file_csv(cls):
+@classmethod
+def load_from_file_csv(cls):
     """Return a list of classes instantiated from a CSV file."""
     filename = cls.__name__ + ".csv"
     try:
