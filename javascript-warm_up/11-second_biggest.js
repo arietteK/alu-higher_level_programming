@@ -13,7 +13,7 @@ if (args.length < 2) {
     if (num > max) {
       secondMax = max;
       max = num;
-    } else if (num > secondMax && num < max) {
+    } else if (num > secondMax) {
       secondMax = num;
     }
   }
